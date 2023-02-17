@@ -6,7 +6,6 @@
  * Description :Prints alphabets in lower cases
  * return 0
  */
-
 int main(void)
 {
 
