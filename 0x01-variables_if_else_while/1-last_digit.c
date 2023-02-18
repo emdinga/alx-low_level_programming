@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - is main block
- * Description: check the last digits 
- * return: always (sucess)
+ * main - Entry point
+ * Description: prints if the number stored is positive or negative
+ * Return: Always 0 (Success)
  */
 
 int main(void)
