@@ -2,7 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 
-/* main - main entry
+/**
+ * main - main entry
+ *
  *Description get a random number and print the output
  *Return (0)
  */
