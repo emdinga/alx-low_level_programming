@@ -3,12 +3,12 @@
 #include <stdio.h>
 
 /**
- * main: main prints if the number is positive
- *
- * Description get a random number and print the output
- * Return: always return zero (succes)
+ * main - Entry point
+ * 
+ * Description: prints if the number stored is positive or negative
+ * 
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 
 {
@@ -24,5 +24,4 @@ int main(void)
 	else 
 		printf("%i is zero\n", n);
 	return (0);
-
 }
