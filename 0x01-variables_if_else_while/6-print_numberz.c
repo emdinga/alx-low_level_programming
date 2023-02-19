@@ -9,12 +9,11 @@
 int main(void)
 {
 
-	int c = 48;
+	int c;
 
-	while (c <= 58)
+	for (c = 48; c < 58; c++)
 	{
 		putchar(c);
-		c++;
 	}
 
 	putchar('\n');
