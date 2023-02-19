@@ -2,15 +2,15 @@
 #include <stdlib.h>
 
 /**
- * main is main block
+ * main - entry point
  * Description: prints all numbers in bases of 16
- * return 0
+ * Return: Always 0 (succes)
  */
 int main(void)
 {
 	char c;
 
-	for (c ='o'; c <= '9'; c++)
+	for (c = 'o'; c <= '9'; c++)
 	{
 		putchar(c);
 	}
@@ -20,5 +20,5 @@ int main(void)
 	}
 
 	putchar('\n');
-	return(0);
+	return (0);
 }
