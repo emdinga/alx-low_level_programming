@@ -4,8 +4,9 @@
 /**
  * main - main block
  * Description: prints in lower cases followed by a new line
- * retun: Always (sucees)
+ * return: Always (sucees)
  */
+
 int main(void)
 {
 	char c = 'a';
