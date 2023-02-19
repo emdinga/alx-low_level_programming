@@ -2,15 +2,15 @@
 #include <stdlib.h>
 
 /**
- * Main is main block
+ * main - Entry point
  * Description: prints alphabets in reverse
- * return 0
+ * Return: Always 0 (succes)
  */
 int main(void)
 {
 	char c = 'z';
 
-	while ( c >= 'a')
+	while (c >= 'a')
 	{
 
 		putchar(c);
@@ -18,5 +18,5 @@ int main(void)
 	}
 
 	putchar('\n');
-	return(0);
+	return (0);
 }
