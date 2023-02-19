@@ -6,20 +6,20 @@
  * Description: prints all numbers in bases of 16
  * Return: Always 0 (succes)
  */
+
 int main(void)
 {
-	char c;
-	int f;
+	int n;
+	char ch;
 
-	for (f = 'o'; f <= '9'; f++)
+	for (n = 48; n < 58; ch++)
 	{
-		putchar(f);
+		putchar(n);
 	}
-	for (c = 'a'; c <= 'f'; c++)
+	for (ch = 'a'; ch <= 'f'; ch++)
 	{
-		putchar(c);
+		putchar(ch);
 	}
-
 	putchar('\n');
 	return (0);
 }
