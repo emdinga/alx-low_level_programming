@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * Main is main block
+ * main - Entry point
  * Descprion: Prints numbers on the base of 10
- * Return 0
+ * Return: Always 0 (sucess)
  */
 int main(void)
 {
@@ -18,5 +18,5 @@ int main(void)
 	}
 
 	putchar('\n');
-	return(0);
+	return (0);
 }
