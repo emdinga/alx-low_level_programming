@@ -2,14 +2,14 @@
 #include <stdlib.h>
 
 /**
- * main is main block
+ * main - Entry point
  * Description: prints all numbers less than 10
- * return 0
+ * Return: Always 0 (succes)
  */
 int main(void)
 {
 
-	int c = 0;
+	int c = '0';
 
 	while (c <= 10)
 	{
@@ -18,5 +18,5 @@ int main(void)
 	}
 
 	putchar(c);
-	return(0);
+	return (0);
 }
