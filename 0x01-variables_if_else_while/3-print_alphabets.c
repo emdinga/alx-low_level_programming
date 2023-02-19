@@ -2,30 +2,22 @@
 #include <stdlib.h>
 
 /**
- * main -main block
- * Description : prints lower caese and than in lower cases
- * return 0
+ * main - Entry point
+ * Description: prints if the number stored is positive or negative
+ * Return: Always 0 (Success)
  */
-int main (void)
+
+int main(void)
+
 {
-        char c = 'a';
+	int ch;
 
-        while ( c <= 'z')
-        {
+	for (ch = 'a'; ch <= 'z'; ch++ )
+		putchar(ch);
 
-                putchar(c);
-                c++;
-        }
+	for (ch = 'A'; ch <= 'Z'; ch++ )
+		putchar(ch);
 
-	 c = 'A';
-
-        while ( c <= 'Z')
-        {
-
-                putchar(c);
-                c++;
-        }
-
-        putchar('\n');
-        return(0);
+	putchar('\n');
+	return (0);
 }
