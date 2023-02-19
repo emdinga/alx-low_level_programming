@@ -2,11 +2,10 @@
 #include <stdlib.h>
 
 /**
- * main - main block
- * Description: prints in lower cases followed by a new line
- * return: Always (sucees)
+ * main - Entry point
+ * Description: main prints in lower cases followed by a new line
+ * Return: Always 0 (sucees)
  */
-
 int main(void)
 {
 	char c = 'a';
