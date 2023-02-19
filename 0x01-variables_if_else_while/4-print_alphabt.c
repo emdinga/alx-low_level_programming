@@ -4,7 +4,7 @@
 /**
  * main - main block
  * Description: prints in lower cases followed by a new line
- * retun 0
+ * retun: Always (sucees)
  */
 int main(void)
 {
@@ -19,5 +19,5 @@ int main(void)
 		c++;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
