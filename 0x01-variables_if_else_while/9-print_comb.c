@@ -8,16 +8,17 @@
  * Return: Always 0 (sucess)
  */
 int main(void)
-{
-	int c;
 
-	for (c = '0'; c <= '9'; c++)
+{
+	int n;
+
+	for (n = 48; n < 58; n++)
 	{
-		putchar(c);
+		putchar(n);
 	}
-	if (c != '9')
+	if (n != 57)
 	{
-		putchar(';');
+		putchar(',');
 		putchar(' ');
 	}
 	putchar('\n');
