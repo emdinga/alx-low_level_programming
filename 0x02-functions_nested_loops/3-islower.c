@@ -8,7 +8,6 @@
 
 int _islower(int c)
 {
-	c = 'c'
 
 	while (c = 'c')
 	{
