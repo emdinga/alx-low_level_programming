@@ -2,6 +2,7 @@
 
 /**
  * _islower - Entry point
+ * @c: return parameter
  * Description: return values
  * Return: Always 0 (sucess)
  */
@@ -9,11 +10,8 @@
 int _islower(int c)
 {
 
-	while (c = 'c')
-	{
-		_putchar('1');
-	}
-	_putchar('0');
-	_putchar('\n');
-	return (0);
+	if (c >= 97 && c <= 122)
+		return (1);
+	else
+		return (0);
 }
