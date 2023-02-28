@@ -2,7 +2,7 @@
 
 /**
  * _strlen - entry point
- * @a: parameter value
+ * @s: parameter value
  * Return: s
  */
 
