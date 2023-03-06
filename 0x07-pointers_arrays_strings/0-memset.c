@@ -8,12 +8,12 @@
  * Return: s
  */
 
-char *_memset(char *s, char b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n)
 {
 	int i;
 
 	i = 0;
-	for (n > 0; i++)
+	for (; n > 0; i++)
 	{
 		s[i] = b;
 		n--;
