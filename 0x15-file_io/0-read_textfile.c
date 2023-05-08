@@ -20,7 +20,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	while ((b_read = read(fd, buffer, sizeof(buffer))) > 0)
 	{
-		if (t_bytes + b_read > letters)
+		if ((size_t)t_bytes + b_read > letters)
 			b_read = letters - t_bytes;
 		b_written = write(STDOUT_FILENO, buffer, b_read);
 		if (b_written == -1 || b_written != b_read)
@@ -29,7 +29,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 			return (0);
 		}
 		t_bytes += b_read;
-		if (t_bytes == letters)
+		if ((size_t)t_bytes == letters)
 			break;
 	}
 	close(fd);
