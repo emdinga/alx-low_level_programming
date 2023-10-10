@@ -1,4 +1,4 @@
-#include "serach_alogs.h"
+#include "search_algos.h"
 
 /**
  * binary_search - Searches for a value in a sorted array of integers
